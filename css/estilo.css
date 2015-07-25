@@ -1,0 +1,119 @@
+.quienes {
+	background-color: #07BC7F;
+	padding: 15px;
+	color:#FFF;
+	text-align: left;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.pie {
+	background-color: #222;
+	text-align: center;
+	color:#fff;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.bloqueslider {
+	background-color: #07BC7F;
+	color:#FFF;
+	margin-bottom: 20%;
+}
+
+.trabajos {
+	background-color: #B20000;
+	color:#FFF;
+	text-align: center;
+	width: 80%;
+	margin:20px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 3px solid #ffffff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cliente {
+	background: rgba(66,138,202,1);
+	background: -moz-linear-gradient(left, rgba(66,138,202,1) 0%, rgba(41,89,128,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(66,138,202,1)), color-stop(100%, rgba(41,89,128,1)));
+	background: -webkit-linear-gradient(left, rgba(66,138,202,1) 0%, rgba(41,89,128,1) 100%);
+	background: -o-linear-gradient(left, rgba(66,138,202,1) 0%, rgba(41,89,128,1) 100%);
+	background: -ms-linear-gradient(left, rgba(66,138,202,1) 0%, rgba(41,89,128,1) 100%);
+	background: linear-gradient(to right, rgba(66,138,202,1) 0%, rgba(41,89,128,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#428aca', endColorstr='#295980', GradientType=1 );
+	color:#FFF;
+	padding: 15px;
+	margin:10px;
+	margin:20px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 3px solid #ffffff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	text-align: center;
+
+}
+
+IMG.centrarimagen{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+      }
+.titulo {
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.servicios {
+	background-color: #07BC7F;
+	text-align: center;
+	color:#fff;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	margin:20px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 3px solid #ffffff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	background: rgba(7,188,128,1);
+	background: -moz-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(7,188,128,1)), color-stop(54%, rgba(4,149,99,1)), color-stop(100%, rgba(1,115,75,1)));
+	background: -webkit-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: -o-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: -ms-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: linear-gradient(to right, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07bc80', endColorstr='#01734b', GradientType=1 );
+}
+
+.contacto {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #428bca;
+	color: #FFF;
+	padding: 15px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 3px solid #ffffff;
+}
+
+.pasaimagen{
+
+	max-height: 900 !important;
+}
