@@ -14,6 +14,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="enviar.js"></script>
 
 </head>
 <body>
@@ -117,7 +118,7 @@
 	<!--Nuestros Trabajos-->
 	<div class="container titulo col-lg-12 col-md-12 col-xs-12" id="trabajos">
 		<button type="button" class="btn btn-default btn-lg" aria-label="Left Align">
-			<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+			<span class="fa fa-copyright fa-2x" aria-hidden="true"></span>
 			<h3>Nuestros trabajos Web</h3>
 		</button>
 	</div>
@@ -142,6 +143,13 @@
 			<img src="vsclienteslogo.png" class="img-responsive centrarimagen" alt="">
 			<h5><a href="vs-servicios.com"><span>Ir a la web</span></a></h5>
 		</div>
+	</div>
+	<!--Divisor Con Imagen-->
+	<div class="container col-lg-12 col-md-12 col-xs-12 fondo1 fondo1imagen" id="divisor1" >
+		<h2 style="margin-top: 100px; margin-bottom: auto;">
+			"Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos las mismas cosas."
+		</h2>
+		<h4 class="frases">Albert Einstein</h4>
 	</div>
 	<!--Servicios-->
 	<div class="container titulo col-lg-12 col-md-12 col-xs-12" id="servicios">
@@ -175,7 +183,7 @@
 		</button>
 	</div>
 	<div class="container col-lg-8 col-md-8 col-md-offset-2 col-lg-offset-2" id="enviarformulario">
-		<form role="form" action="" method="post" >
+		<form role="form" action="" method="post" id="contactoform" >
 			<div class="col-lg-6 contacto">
 				<div class="form-group">
 					<label for="InputName">Tu nombre</label>
@@ -196,16 +204,11 @@
 						<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
 				</div>
 				<div class="form-group">
-					<label for="InputReal">¿Cúanto es 4+3?</label>
-					<div class="input-group">
-						<input type="text" class="form-control" name="InputReal" id="InputReal" required>
-						<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-				</div>
-				<div class="form-group">
 					<div class="input-group">
 						<input type="submit" name="submit" id="submit" value="Enviar" class="btn btn-info pull-right">
 					</div>
 				</div>
+				<div id="respuesta" style="display: none;"></div>
 
 			</div>
 		</form>
