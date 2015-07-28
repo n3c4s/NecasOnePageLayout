@@ -14,7 +14,7 @@ function irA(){
 }
 
 function scrollMenu(){
-	var secciones = [$("#slider").offset().top,$("#quienes").offset().top,$("#trabajos").offset().top,$("#trabajosdesign").offset().top,$("#servicios").offset().top,$("#contacto").offset().top,]
+	var secciones = [$("#slider").offset().top,$("#quienes").offset().top,$("#trabajos").offset().top,$("#servicios").offset().top,$("#contacto").offset().top,]
 	if($(this).scrollTop() > secciones[0]-140 && $(this).scrollTop() < secciones[1]-140) {
 		$("#menuweb li").eq(0).addClass("active")
 	}else {
@@ -35,14 +35,9 @@ function scrollMenu(){
 	}else {
 		$("#menuweb li").eq(3).removeClass("active")
 	}
-	if($(this).scrollTop() > secciones[4]-140 && $(this).scrollTop() < secciones[5]-140) {
+	if($(this).scrollTop() > secciones[4]-140) {
 		$("#menuweb li").eq(4).addClass("active")
 	}else {
 		$("#menuweb li").eq(4).removeClass("active")
-	}
-	if($(this).scrollTop() > secciones[5]-140) {
-		$("#menuweb li").eq(5).addClass("active")
-	}else {
-		$("#menuweb li").eq(5).removeClass("active")
 	}
 }

@@ -2,11 +2,13 @@
 	background-color: #07BC7F;
 	padding: 15px;
 	color:#FFF;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 20px;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 1;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .pie {
@@ -20,6 +22,7 @@
 	background-color: #07BC7F;
 	color:#FFF;
 	margin-bottom: 20%;
+	opacity: 0.8;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -74,7 +77,7 @@ IMG.centrarimagen{
 	background-color: #222;
 	color: #fff;
 	text-align: center;
-	width: 100%;
+	width: auto;
 	margin-bottom: 20px;
 }
 
@@ -104,7 +107,7 @@ IMG.centrarimagen{
 .contacto {
 	margin-top: 15px;
 	margin-bottom: 15px;
-	background-color: #428bca;
+	background-color: #07BC7F;
 	color: #FFF;
 	padding: 15px;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -114,11 +117,21 @@ IMG.centrarimagen{
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border: 3px solid #ffffff;
+	background: rgba(7,188,128,1);
+	background: -moz-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(7,188,128,1)), color-stop(54%, rgba(4,149,99,1)), color-stop(100%, rgba(1,115,75,1)));
+	background: -webkit-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: -o-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: -ms-linear-gradient(left, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	background: linear-gradient(to right, rgba(7,188,128,1) 0%, rgba(4,149,99,1) 54%, rgba(1,115,75,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07bc80', endColorstr='#01734b', GradientType=1 );
 }
 
 .pasaimagen{
 
-	max-height: 900 !important;
+	max-height: 900px !important;
+	width: 100% !important;
+
 }
 
 
@@ -134,9 +147,20 @@ IMG.centrarimagen{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	min-height: 300px !important;
-	-webkit-box-shadow: 0px 10px 5px 10px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 10px 5px 10px rgba(0,0,0,0.75);
-	box-shadow: 0px 10px 5px 10px rgba(0,0,0,0.75);
+}
+
+.fondo2imagen {
+	background-image: url(img/code2.jpg);
+	opacity: 0.7;
+	background-color: #428bca;
+	max-height: 300px !important;
+	text-align: center;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+	color: #fff;
+	font-size: 24pt;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 300px !important;
 }
 
 .frases{
@@ -145,5 +169,79 @@ IMG.centrarimagen{
 	font-style: italic;
 	text-align:right;
 	margin-right: 100px;
+}
+.frases2{
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+	color: #fff;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+}
 
+.yo{
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	max-width: 150px;
+	max-height: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.servicios2 {
+	background-color: #d64b30;
+	text-align: center;
+	color:#fff;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	margin:20px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 3px solid #ffffff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.imgdesig {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	padding: 15px;
+	opacity: 0.8;
+}
+.disenio {
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.2);
+}
+.desig {
+	margin-bottom: 20px;
+}
+
+.info {
+ position: absolute;
+ bottom: 0;
+ z-index: 10;
+ background: rgba(0, 0, 0, 0.2);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+ width: 200px;
+ color: #FFF;
+ padding: 10px;
+ margin-left: 30px;
+ margin-bottom: 30px;
+ border-radius: 180px;
+}
+
+imgdesig:hover .info {
+display: block;
+}
+a {
+	color: #FFF !important;
 }
